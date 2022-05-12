@@ -1,0 +1,22 @@
+{
+    "blogs":[
+         {
+      "title": "My new Site",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.\n Fugiat recusandae provident totam id, eligendi ut dicta porro praesentium ipsam, officiis quasi unde a voluptate? Illo architecto similique tenetur asperiores officiis.",
+      "author": "Imsat",
+      "id": 1
+    },
+    {
+      "title": "Wellcome",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.\n Fugiat recusandae provident totam id, eligendi ut dicta porro praesentium ipsam, officiis quasi unde a voluptate? Illo architecto similique tenetur asperiores officiis.",
+      "author": "Wepeg",
+      "id": 2
+    },
+    {
+      "title": "Top Web Frameworks",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.\n Fugiat recusandae provident totam id, eligendi ut dicta porro praesentium ipsam, officiis quasi unde a voluptate? Illo architecto similique tenetur asperiores officiis.",
+      "author": "Imsat",
+      "id": 3
+    }
+    ]
+}
