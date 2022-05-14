@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      flex: {
+        '2': '2 2 0%'
+      },
+      fontFamily: {
+        Poppins: ['poppins', 'sans-serif'],
+        Fasthand: ['Fasthand', 'cursive'],
+      },
       animation: {
         flipdown: 'flipdown 2s linear infinite',
       },
@@ -21,6 +28,32 @@ module.exports = {
           },
         },
       },
+    },
+    colors: {
+      transparent: 'transparent',
+      white: '#F9FDFF',
+      dark: '#464646',
+      yellow: '#FFCA00',
+      blue: {
+        100: '#B9EEFF ',
+        200: '#9EF3FF ',
+        300: '#80D8FF ',
+        400: '#B9EEFF ',
+        500: '#00A0F4',
+        600: '#00A2E9 ',
+        700: '#00A4D9 ',
+        800: '#2197F7 ',
+        900: '#228ED6 ',
+      },
+      gray: {
+        500: '#464646',
+      },
+    },
+    fontSize: {
+      '2xl': '50px',
+      xl: '35px',
+      lg: '25px',
+      md: '15px',
     },
     plugins: [],
   },
