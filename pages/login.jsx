@@ -5,9 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {useEffect} from 'react';
 import Button from '../components/Button';
-import React from 'react';
 
-const RegistPage = () => {
+const LoginPage = () => {
   const monthNames = [
     'January',
     'February',
@@ -78,7 +77,6 @@ const RegistPage = () => {
               </Button>
               <p>
                 Not Registered yet?
-                {' '}
                 <Link href={'/register'}>
                   <a className="text-blue-500 font-semibold">
                     Create Account
@@ -136,4 +134,4 @@ const RegistPage = () => {
   );
 };
 
-export default RegistPage;
+export default LoginPage;

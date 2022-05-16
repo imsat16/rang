@@ -46,7 +46,10 @@ module.exports = {
         900: '#228ED6 ',
       },
       gray: {
-        500: '#464646',
+        300:'#d1d5db',
+        400:'#9ca3af',
+        500: '#6b7280',
+        600: '#464646',
       },
     },
     fontSize: {
@@ -54,6 +57,7 @@ module.exports = {
       xl: '35px',
       lg: '25px',
       md: '15px',
+      sm: '14px',
     },
     plugins: [],
   },
